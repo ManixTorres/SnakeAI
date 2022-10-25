@@ -17,7 +17,7 @@ class GameState:
         self.FOOD_POWER = 500
         self.CHECK_AREA = 1000 # 80% THING
         self.SQUARE = 15 # how big the area checked is
-        self.LOCATION_CHECK_REWARD = 40# CHECK HOW MUCH AREA IS OCCUPIED BY SNEK
+        self.LOCATION_CHECK_REWARD = 40# CHECK HOW MUCH AREA IS OCCUPIED BY SNAKE
 
         if steps_since_food_eaten > 500:
             self.FOOD_POWER = self.FOOD_POWER * 100
